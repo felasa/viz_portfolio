@@ -31,11 +31,11 @@ This histogram explores the distribution of the time a user has had his device b
 
 This project was a simple one: Analyze and visualize the results of a large-ish poll that consisted of questions whose answer ranged between 1 - 5 that qualitatively measured various aspects of company culture.
 
-![](encuesta_cultura_todas_respuesta.png)
+![](encuesta_cultura_todas_respuesta_edit.png)
 
 In this vizualization we see the share (x-axis) of respondents who answered for each option (color) and every question (y-axis) ordered by overal share of "positive result" from this visualization it was easy to identify areas of oportunity (bottom rows) and strengths (top rows) as well as the detail for each option and answer. I think it looks pretty too, the layout was directly inspired form some visualizations seen at fivethirtyeight.com.
 
-![](encuesta_cultura.png)
+![](encuesta_cultura_edit.png)
 
 This is a simple version of the same plot, where possitive outcomes where aggregated into a single data point. so instead of 5 possible values we only see 3: Negative, Neutral and Positive, it's a less clusttered version of the graphic above.
 
@@ -55,7 +55,7 @@ This is a more refined viz of the same type of network using a fixed layout. In 
 
 Another way of visualizing (weighted) networks is through this type of circleplot where we can see the proportion of origin-destination pairs as the width of an arc shape we can immediately identify the most common destination from any origin as well as the most common origin for every destination.
 
-![](marginal_effects_heatmap_trim.png)
+![](marginal_effects_heatmap_trim_edit.png)
 
 This heatmap-type plot explore the relation ships between a marginal change of value in a multivariate model and the marginal change of the model output (also multivariate) columns are the dependent variables (regions) and rows are the dependent one (the same regions) the diagonal is the effect $x_i$ on $y_i$. The the intensity of the heatmap at row $i$ column $j$ reflect the values
 
@@ -73,12 +73,12 @@ through this apparently simple visualization we could explore which regions had 
 
 ## Dashboard Design
 
-![](dashboard_fraud_detection.png)
+![](dashboard_fraud_detection_edit.png)
 
 The above is a screenshot from a PowerBI dashboard it's design is focused on giving relevant information at a glance rather than overload with statistics. The first panel is the output of a predictive model, it is the projected estimate of a set metric. Second one is a series of a real measured metric and the third one is an aggregation by month of the first. all chars are interactive with tooltips giving the detail of a data point, and further aggregation levels can be explored vial drill down.
 
 ## Multimodel Exploration
 
-![](ridgeplot_model_scores.png)
+![](ridgeplot_model_scores_edit.png)
 
 The above ridgeplot is an exploration of the output scores of two different machine learning models. The problem that this figure is drilling down into is the apparent anti-correlation of both, where it is clearly seen that most of the top scored observations are concentrated within the 99nth percentile of one the other model output (top row).
