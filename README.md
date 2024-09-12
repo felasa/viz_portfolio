@@ -9,7 +9,7 @@ output:
 
 ## Basic Viz Portfolio
 
-This is a simple collection of some data viz that I'm able to share, produced over several real projects that I find interesting or somewhat appealing done over the course of the years. Unfortunately not everything that I've worked on has been saved but among that that has this are some i find interesting.
+This is a simple collection of some data viz that I'm able to share, product of real projects that I either find interesting or somewhat appealing.
 
 ## Mobile Device transitions
 
